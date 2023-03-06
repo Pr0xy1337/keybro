@@ -13,6 +13,8 @@ lbls:Label("- Added Egg Hatching")
 lbls:Label("- Added Security/Key System")
 
 local lbls = serv:Channel("Check-list")
+lbls:Label("[X] - Add Teleport")
+lbls:Label("[X] - Add Player Speed/Jump")
 lbls:Label("[X] - Add FPS Unlocker")
 lbls:Label("[X] - Add Anti AFK")
 lbls:Label("[X] - Add Kill Aura")
