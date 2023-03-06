@@ -109,11 +109,11 @@ for i, v in pairs(plrGui:GetChildren()) do
                         Background.Visible = false
                         print("There")
                         if a == 12574073723 then -- Place ID / Game ID
-                            loadstring(game:HttpGet("https://pastebin.com/raw/DrJcsiMf"))() --Loadstring
+                            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pr0xy1337/keybro/main/DK"))() --Loadstring
                             print("working")
 
                         elseif a == 012574073723 then -- Place ID / Game ID
-                            loadstring(game:HttpGet("https://pastebin.com/raw/DrJcsiMf"))() --Loadstring
+                            loadstring(game:HttpGet("https://raw.githubusercontent.com/Pr0xy1337/keybro/main/DK"))() --Loadstring
                             print("working")
 
                             --game.Players.LocalPlayer:Kick("Not Supported")
