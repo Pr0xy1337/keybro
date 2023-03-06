@@ -146,29 +146,4 @@ local tgls = Bossfarm:Channel("Bossfarm")
 tgls:Toggle("Underworld Boss",false, function(bool)
 end)
 
-local sldrs = Bossfarm:Channel("Sliders")
 
-local sldr = sldrs:Slider("Slide me!", 0, 5, 0, function(t)
-    if t > 0 then
-        _G.BossFarm = true;
-
-while _G.BossFarm == true do
-
---Left Boss
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4341.06104, 50.656559, 999.933594, 0.613161743, 2.8111625e-08, -0.789957345, -4.79528133e-08, 1, -1.63452596e-09, 0.789957345, 3.88829058e-08, 0.613161743)
-wait(t)
-
---Middle Boss
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4291.37793, 50.6565361, 1007.70563, -0.10895934, -7.63415664e-10, 0.994046211, -1.21877468e-08, 1, -5.67934533e-10, -0.994046211, -1.21770647e-08, -0.10895934)
-
-wait(t)
---Right Boss
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4234.55615, 50.6565208, 1035.5304, -0.579162359, -6.25349585e-08, -0.81521225, -1.02953521e-07, 1, -3.56736463e-09, 0.81521225, 8.18628862e-08, -0.579162359)
-
-wait(t)
-
-end
-else
-    _G.BossFarm = false;
-end
-end)
