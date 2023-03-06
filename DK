@@ -142,6 +142,4 @@ end)
 
 -- BOSS FARM
 
-local bossfarm = win:Server("Bossfarm", "http://www.roblox.com/asset/?id=955072900")
-
                        
