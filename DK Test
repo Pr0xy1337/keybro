@@ -143,4 +143,4 @@ end)
 -- BOSS FARM
 local Bossfarm = win:Server("Bossfarm", "http://www.roblox.com/asset/?id=955072900")
 local tgls = Bossfarm:Channel("Bossfarm")
-tgls:Toggle("Underworld Boss",false, function(bool)                       
+tgls:Toggle("Underworld Boss",false, function(bool))                       
