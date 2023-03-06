@@ -138,4 +138,12 @@ end)
                         loadstring(game:HttpGet('https://pastebin.com/raw/nFHx6Vpq'))()
                     end
                 end)
+
+
+-- BOSS FARM
+
+local bossfarm = win:Server("Bossfarm", "http://www.roblox.com/asset/?id=955072900")
+
+local tgls = bossfarm:Channel("Boss1")
+tgls:Toggle("Underworld Boss",false, function(bool)
                        
