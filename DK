@@ -6,7 +6,7 @@ local win = DiscordLib:Window("Piggy Discord V3")
 
 local serv = win:Server("Changelog", "http://www.roblox.com/asset/?id=6031075938")
 
-local lbls = serv:Channel("News V3.0.1")
+local lbls = serv:Channel("News V3.1.0")
 
 lbls:Label("- Added the Root UI")
 lbls:Label("- Added Egg Hatching")
