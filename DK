@@ -17,6 +17,7 @@ lbls:Label("[X] - Add FPS Unlocker")
 lbls:Label("[X] - Add Anti AFK")
 lbls:Label("[X] - Add Kill Aura")
 lbls:Label("[X] - Add Auto Boss")
+lbls:Label("[✓] - Add Key System")
 lbls:Label("[✓] - Add Egg Hatch")
 lbls:Label("[✓] - Add Root UI")
 
