@@ -148,7 +148,7 @@ end)
 
 local sldrs = Bossfarm:Channel("Sliders")
 
-local sldr = sldrs:Slider("Slide me!", 1, 5, 0, function(t)
+local sldr = sldrs:Slider("Slide me!", 0, 5, 0, function(t)
     if t > 0 then
         _G.BossFarm = true;
 
